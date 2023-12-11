@@ -1,0 +1,14 @@
+{
+  "name": "pizza-layout",
+  "version": "1.0.0",
+  "description": "site pizza layout",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc"
+  },
+  "author": "Gencer Artem",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
