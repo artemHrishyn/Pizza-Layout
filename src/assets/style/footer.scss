@@ -1,0 +1,49 @@
+$bgBlock: #b83922;
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: $bgBlock;
+    padding-top: 50px;
+    
+    &__logo{
+        display: flex;
+        align-items: center;
+
+        img{
+            margin-right: 11px;
+            max-width: 50px;
+        }
+
+        h1{
+            font-size: 26px;
+        }
+    }
+
+    &__navigator{
+        display: flex;
+        justify-content: space-between;
+        max-width: 480px;
+        width: 100%;
+
+        &__menu{
+            list-style: none;
+
+            li{
+                font-size: 20px;
+
+            }
+        }
+    }
+}
+
+li{
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}

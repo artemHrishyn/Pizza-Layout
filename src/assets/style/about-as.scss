@@ -1,0 +1,93 @@
+@import 'header';
+@import 'footer';
+
+$brItem: #40232c;
+$color: #fff;
+$font-family: 'Roboto', sans-serif;
+$orenge: #b83922; 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 0;
+    font-family: 'Libre Baskerville', serif;
+    color: $color;
+    font-family: $font-family;
+}
+
+img{
+    width: 100%;
+}
+
+main{
+    background-color: #1d1b2b;
+    display: flex;
+    flex-direction: column;
+    padding: 55px 375px 100px;
+
+    iframe{
+        margin-bottom: 55px;
+    }
+    
+    .title{
+        margin-bottom: 55px;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    .info{
+        display: flex;
+        justify-content: space-between;
+        font-size: 17px;
+
+        &__detals{
+            list-style: none;
+            max-width: 570px;
+            width: 100%;
+            
+            li{
+                margin-bottom: 25px;
+
+                h6{
+                    font-size: 22px;
+                }
+            }
+
+            &__text{
+                color: grey;
+            }
+        }
+
+        &__list{
+            max-width: 355px;
+            width: 100%;
+
+            h6{
+                margin-bottom: 25px;
+                font-weight: 700;
+                font-size: 22px;
+            }
+            
+            li{
+                margin-bottom: 25px;
+            }
+        }
+    }
+
+    
+    button{
+        border: 2px solid $orenge;
+        border-radius: 50px;
+        background-color:$brItem;
+        padding: 8px 23px;
+        font-size: 18px;
+        color: $color;
+        max-width: 195px;
+        width: 100%;
+        text-transform: uppercase;
+    }
+}

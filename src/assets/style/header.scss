@@ -1,0 +1,59 @@
+$bgMain: #ec4d2f;
+$bgBlock: #b83922;
+
+.header{
+    background-color: $bgMain;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo{
+        display: flex;
+        justify-content: flex-end;
+        margin: 13px 0;
+        padding: 7px 30px;
+        border-radius: 0 50px 50px 0;
+        max-width: 545px;
+        width: 100%;
+        background-color: $bgBlock;
+        align-items: center;
+
+        img{
+            margin-right: 11px;
+            max-width: 50px;
+        }
+
+        h1{
+            font-size: 26px;
+        }
+    }
+    
+    ul{
+        display: flex;
+        justify-content: space-between;
+        max-width: 650px;
+        width: 100%;
+        list-style: none;
+        font-size: 20px;
+    
+        li:hover{
+            padding: 10px 13px;
+            background-color: $bgBlock;
+        }
+    }
+    
+    &__panel{
+        display: flex;
+        margin: 13px 0;
+        padding: 7px 0;
+        border-radius: 50px 0 0 50px;
+        max-width: 545px;
+        width: 100%;
+        background-color: $bgBlock;
+        
+        img{
+            max-width: 40px;
+            margin: 0 30px;
+        }
+    }
+}
