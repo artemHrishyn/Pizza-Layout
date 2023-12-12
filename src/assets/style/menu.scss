@@ -32,6 +32,7 @@ main{
     h4{
         margin-bottom: 56px;
         font-size: 35px;
+        text-transform: uppercase;
     }
     
     .catalog{
@@ -79,6 +80,7 @@ main{
                 padding: 8px 23px;
                 font-size: 18px;
                 color: $color;
+                text-transform: uppercase;
             }
         }
     }

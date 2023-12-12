@@ -139,6 +139,7 @@ main .info__title span {
 main .info h3 {
   font-size: 25px;
   margin-bottom: 47px;
+  text-transform: uppercase;
 }
 main .info__text {
   margin-bottom: 45px;
@@ -168,6 +169,7 @@ main .info button {
   padding: 19px 30px;
   color: #fff;
   font-size: 20px;
+  text-transform: uppercase;
 }
 main .pizza {
   display: flex;

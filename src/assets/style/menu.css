@@ -115,6 +115,7 @@ main {
 main h4 {
   margin-bottom: 56px;
   font-size: 35px;
+  text-transform: uppercase;
 }
 main .catalog {
   display: grid;
@@ -157,6 +158,7 @@ main .catalog__item button {
   padding: 8px 23px;
   font-size: 18px;
   color: #fff;
+  text-transform: uppercase;
 }
 main .but {
   display: flex;
