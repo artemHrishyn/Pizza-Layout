@@ -30,6 +30,9 @@
   list-style: none;
   font-size: 20px;
 }
+.header ul li {
+  margin-bottom: 0;
+}
 .header ul li:hover {
   padding: 10px 13px;
   background-color: #b83922;
@@ -46,4 +49,11 @@
 .header__panel img {
   max-width: 40px;
   margin: 0 30px;
+}
+
+.active {
+  color: #ffb3b3;
+}
+.active:hover {
+  color: #fff;
 }/*# sourceMappingURL=header.css.map */

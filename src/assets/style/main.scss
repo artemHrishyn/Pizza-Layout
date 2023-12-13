@@ -86,7 +86,7 @@ main{
             }
         }
 
-        button{
+        a{
             border: 2px solid $orenge;
             border-radius: 20px;
             background-color: #3d232b;
@@ -120,6 +120,8 @@ main{
             padding: 20px;
             position: relative;
             z-index: 1;
+            max-width: 615px;
+            width: 100%;
         }
 
         &__but{
@@ -135,6 +137,7 @@ main{
                 width: 100%;
                 height: 47px;
                 border-radius: 50px 0 0 50px;
+                cursor: pointer;
                 
                 img{
                     margin: auto;
@@ -149,6 +152,7 @@ main{
                 width: 100%;
                 height: 47px;
                 border-radius: 0 50px 50px 0;
+                cursor: pointer;
     
                 img{
                     margin: auto;

@@ -30,6 +30,9 @@
   list-style: none;
   font-size: 20px;
 }
+.header ul li {
+  margin-bottom: 0;
+}
 .header ul li:hover {
   padding: 10px 13px;
   background-color: #b83922;
@@ -46,6 +49,13 @@
 .header__panel img {
   max-width: 40px;
   margin: 0 30px;
+}
+
+.active {
+  color: #ffb3b3;
+}
+.active:hover {
+  color: #fff;
 }
 
 .footer {
@@ -162,7 +172,7 @@ main .info ul li div {
   left: -30px;
   top: 3px;
 }
-main .info button {
+main .info a {
   border: 2px solid #b83922;
   border-radius: 20px;
   background-color: #3d232b;
@@ -193,6 +203,8 @@ main .pizza__img {
   padding: 20px;
   position: relative;
   z-index: 1;
+  max-width: 615px;
+  width: 100%;
 }
 main .pizza__but {
   display: flex;
@@ -207,6 +219,7 @@ main .pizza__but__left {
   width: 100%;
   height: 47px;
   border-radius: 50px 0 0 50px;
+  cursor: pointer;
 }
 main .pizza__but__left img {
   margin: auto;
@@ -219,6 +232,7 @@ main .pizza__but__right {
   width: 100%;
   height: 47px;
   border-radius: 0 50px 50px 0;
+  cursor: pointer;
 }
 main .pizza__but__right img {
   margin: auto;

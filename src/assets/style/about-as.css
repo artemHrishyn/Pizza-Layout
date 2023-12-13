@@ -30,6 +30,9 @@
   list-style: none;
   font-size: 20px;
 }
+.header ul li {
+  margin-bottom: 0;
+}
 .header ul li:hover {
   padding: 10px 13px;
   background-color: #b83922;
@@ -46,6 +49,13 @@
 .header__panel img {
   max-width: 40px;
   margin: 0 30px;
+}
+
+.active {
+  color: #ffb3b3;
+}
+.active:hover {
+  color: #fff;
 }
 
 .footer {
@@ -151,14 +161,14 @@ main .info__list h6 {
 main .info__list li {
   margin-bottom: 25px;
 }
-main button {
+main a {
   border: 2px solid #b83922;
   border-radius: 50px;
   background-color: #40232c;
   padding: 8px 23px;
   font-size: 18px;
   color: #fff;
-  max-width: 195px;
+  max-width: 135px;
   width: 100%;
   text-transform: uppercase;
 }/*# sourceMappingURL=about-as.css.map */
