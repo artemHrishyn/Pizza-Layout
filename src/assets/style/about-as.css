@@ -161,14 +161,14 @@ main .info__list h6 {
 main .info__list li {
   margin-bottom: 25px;
 }
-main button {
+main a {
   border: 2px solid #b83922;
   border-radius: 50px;
   background-color: #40232c;
   padding: 8px 23px;
   font-size: 18px;
   color: #fff;
-  max-width: 195px;
+  max-width: 135px;
   width: 100%;
   text-transform: uppercase;
 }/*# sourceMappingURL=about-as.css.map */

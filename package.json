@@ -4,7 +4,7 @@
   "description": "site pizza layout",
   "main": "index.js",
   "scripts": {
-    "start": "tsc"
+    "start": "tsc -w"
   },
   "author": "Gencer Artem",
   "license": "ISC",

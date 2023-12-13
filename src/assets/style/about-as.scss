@@ -79,14 +79,14 @@ main{
     }
 
     
-    button{
+    a{
         border: 2px solid $orenge;
         border-radius: 50px;
         background-color:$brItem;
         padding: 8px 23px;
         font-size: 18px;
         color: $color;
-        max-width: 195px;
+        max-width: 135px;
         width: 100%;
         text-transform: uppercase;
     }
