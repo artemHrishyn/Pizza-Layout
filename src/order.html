@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./assets/style/order.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/style/order.css" />
     <title>Pizza Layout</title>
 </head>
+
 <body>
     <header class="header">
         <div class="header__logo">
@@ -77,21 +80,24 @@
                 </dd>
             </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores officia eligendi, perspiciatis esse placeat quibusdam commodi vero alias rem sequi voluptates quidem nihil ducimus. Saepe delectus voluptatum sint ex veritatis est odio, at laborum, perferendis velit aut rerum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores officia eligendi, perspiciatis esse
+                placeat quibusdam commodi vero alias rem sequi voluptates quidem nihil ducimus. Saepe delectus
+                voluptatum sint ex veritatis est odio, at laborum, perferendis velit aut rerum.</p>
         </div>
 
         <form>
             <h3>
-                Lorem, ipsum.
+                Заповніть форму відправки
             </h3>
             <div>
-                <input type="text" placeholder="Lorem ipsum dolor sit amet.">
-                <input type="text" placeholder="Lorem ipsum dolor sit amet.">
-                <input type="text" placeholder="Lorem ipsum dolor sit amet.">
-                <input type="text" placeholder="Lorem ipsum dolor sit amet.">
+                <input type="text" id="name" placeholder="Ім'я" required>
+                <input type="text" id="adress" placeholder="Адреса" required>
+                <input type="email" id="email" placeholder="example@example.com" required>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    placeholder="+38(0 _ _ ) _ _ - _ _ - _ _ _" required />
             </div>
-
-            <button>Lorem, ipsum.</button>
+        
+            <input type="button" value="Submit" onclick="submitForm()">
         </form>
     </main>
     <footer class="footer">
@@ -102,26 +108,26 @@
         <div class="footer__navigator">
             <ul class="footer__navigator__menu">
                 <li>
-                    <li>
-                        <a href="./index.html">
-                            Головна
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./menu.html">
-                            Меню
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./order.html" class="active">
-                            Замовлення
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./about-as.html">
-                            Про нас
-                        </a>
-                    </li>
+                <li>
+                    <a href="./index.html">
+                        Головна
+                    </a>
+                </li>
+                <li>
+                    <a href="./menu.html">
+                        Меню
+                    </a>
+                </li>
+                <li>
+                    <a href="./order.html" class="active">
+                        Замовлення
+                    </a>
+                </li>
+                <li>
+                    <a href="./about-as.html">
+                        Про нас
+                    </a>
+                </li>
             </ul>
             <ul class="footer__navigator__contact">
                 <li><a href="tel:+38012141132">380 1214 11 32</a></li>
@@ -130,6 +136,7 @@
             </ul>
         </div>
     </footer>
-    <script src="./assets/script/index.js"></script>
+    <script src="./assets/script/order.js"></script>
 </body>
+
 </html>
