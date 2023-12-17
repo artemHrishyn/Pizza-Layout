@@ -4,7 +4,7 @@ const img: HTMLImageElement = document.createElement('img');
 img.src = `./assets/image/pizza-${counter}.svg`;
 img.alt = 'pizza';
 
-function chengeImg(value: string): void {
+(window as any).chengeImg = function(value: string): void {
     img.src = '';
     if (value === 'left' && counter > 1) {
         counter--;
