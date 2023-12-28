@@ -3,5 +3,11 @@ function submitForm() {
     const adressUser = (document.getElementById('adress') as HTMLInputElement).value;
     const emailUser = (document.getElementById('email') as HTMLInputElement).value;
     const telUser = (document.getElementById('phone') as HTMLInputElement).value;
-    console.log(`name: ${nameUser}, adress: ${adressUser}, email: ${emailUser}, tel: ${telUser}`);
+    
+    alert(
+        `Ваші дані\n
+        Ім'я: ${nameUser},\n
+        Адреса: ${adressUser},\n
+        e-mail: ${emailUser},\n
+        Телефон: ${telUser}`);
 }
