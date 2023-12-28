@@ -138,6 +138,7 @@ main .catalog__item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   padding: 25px 15px 35px;
   border: 2px solid #b83922;
   background-color: #3e232b;

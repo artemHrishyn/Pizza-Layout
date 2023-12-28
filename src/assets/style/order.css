@@ -183,4 +183,14 @@ main form button {
   font-size: 18px;
   color: #fff;
   text-transform: uppercase;
+}
+
+#submit {
+  border: 2px solid #b83922;
+  border-radius: 50px;
+  background-color: #40232c;
+  padding: 8px 23px;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
 }/*# sourceMappingURL=order.css.map */
